@@ -62,9 +62,9 @@ public class MultitaskSuRequestActivity extends FragmentActivity {
     Spinner mSpinner;
 
     Handler mHandler = new Handler();
-
-    int mTimeLeft = 3;
-
+    
+    int mTimeLeft = 0;
+    
     Button mAllow;
     Button mDeny;
 
